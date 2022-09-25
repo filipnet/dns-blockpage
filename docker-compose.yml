@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  static-web:
+    build: .
+    container_name: dns-blockpage
+    ports:
+     - "80:80"
+    restart: always
